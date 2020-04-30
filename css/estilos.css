@@ -17,13 +17,6 @@ header img {
     margin-top: 12px;
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 #planos {
     padding: 80px 0;;
 }
@@ -37,9 +30,6 @@ header img {
 article {
     padding: 10px;
     border: 1px solid #95a4a5;
-    width: 370px;
-    float: left;
-    margin-right: 30px;
 }
 
 article > h2 {
