@@ -124,3 +124,42 @@
     }
 
 }
+
+/*--------------------*\
+  DEPOIMENTO
+\*--------------------*/
+.depoimento {
+    font-size: 2.2rem; /* 22px */
+}
+  
+@media(min-width: 992px) {
+    .depoimento {
+        padding-left: 15%;
+        padding-right: 15%;
+  
+        font-size: 2.8rem;
+    }
+  }
+  
+.depoimento > blockquote {
+    margin: 0;
+    padding: 0 60px;
+  
+    text-align: center;
+    font-size: 1em;
+}
+  
+.depoimento__autor {
+    margin-top: 40px;
+  
+    text-align: center;
+    font-size: 0.7272em;
+}
+  
+.depoimento__autor > img {
+    border-radius: 50%;
+}
+  
+.depoimento__autor > p {
+    margin-top: 10px;
+}
