@@ -1,8 +1,18 @@
 .layout-cabecalho {
     height: 60px;
     border-bottom: 1px solid #ccc;
+    
+    background-color: #fff;
 }
   
+.layout-cabecalho--home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
 .layout-cabecalho img {
     margin-top: 12px;
 }
@@ -13,7 +23,8 @@
 
 .layout-chamada {
     padding: 80px 0;
-  
+    margin-top: 60px;
+
     background-color: #7ab55c;
 }
 
@@ -31,4 +42,10 @@
     color: #fff;
 
     text-align: center;
+}
+
+@media(max-width: 749px) {
+    .layout-planos .row > div:not(.ultima-coluna) {
+      margin-bottom: 40px;
+    }
 }
