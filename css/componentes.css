@@ -73,7 +73,8 @@
   
     background-color: #bbb;
     color: #fff;
-  
+    
+    line-height: normal;
     font-size: 1em;
     text-decoration: none;
 }
@@ -85,11 +86,11 @@
     text-decoration: none;
 }
   
-.botao--assinar {
+.botao--assinar, .botao--login {
     background-color: #127d00;
 }
   
-.botao--assinar:hover, .botao--assinar:focus {
+.botao--assinar:hover, .botao--assinar:focus, .botao--login:hover, .botao--login:focus {
     background-color: #0e6400;
 }
 
@@ -193,4 +194,91 @@
   
 .depoimento__autor > p {
     margin-top: 10px;
+}
+
+/*--------------------*\
+  NAVEGAÇAO
+\*--------------------*/
+.navegacao {
+    
+}
+
+.navegacao__menu{
+    float: right;
+}
+
+/*--------------------*\
+  BOTAO-CHAVEADOR
+\*--------------------*/
+.botao-chaveador {
+    width: 24px;
+    height: 24px;
+    border: 0;
+  
+    background: none;
+    background-image: url("../imagens/bars.png");
+  
+    outline: none;
+}
+
+@media(min-width: 992px) {
+    .botao-chaveador {
+        display: none;
+    }
+}
+
+/*--------------------*\
+  MENU
+\*--------------------*/
+.menu {
+    margin: 0;
+  
+    font-size: 1.4rem;
+  
+    list-style: none;
+}
+  
+@media(max-width: 991px) {
+  
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        
+        display: none;
+        width: 200px;
+        padding: 20px;
+        border-right: 1px solid #eee;
+  
+        background-color: #fbfbfb;
+    }
+  
+    .menu--exibindo {
+        display: block;
+    }
+
+    .menu__item {
+        display: block;
+  
+        line-height: 3;
+    }
+  
+    .menu__item--botao {
+        margin-top: 20px;
+    }
+  
+}
+  
+@media(min-width: 992px) {
+  
+    .menu__item {
+        display: inline-block;
+        padding-right: 20px;
+    }
+  
+    .menu__item:last-of-type {
+        padding-right: 0px;
+    }
+  
 }

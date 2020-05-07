@@ -15,7 +15,29 @@
         
         <header class="layout-cabecalho  layout-cabecalho--home">
             <div class="container">
-                <img src="imagens/logo.png" width="100" height="35" alt="MyPilas">
+                
+                <nav class="navegacao">
+                    <img src="imagens/logo.png" width="100" height="35" alt="MyPilas">
+                    
+                    <div class="navegacao__menu">
+                        <button class="botao-chaveador  js-botao-chaveador"></button>
+                        
+                        <ul class="menu  js-menu">
+                            <li class="menu__item">
+                                <a href="#">Como funciona</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#planos">Planos e preços</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Contato</a>
+                            </li>
+                            <li class="menu__item  menu__item--botao">
+                                <a href="#" class="botao  botao--login">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </header>
 
@@ -122,5 +144,8 @@
             </div>
         </footer>
 
+        <script src="javascripts/app.js">
+
+        </script>
     </body>
 </html>

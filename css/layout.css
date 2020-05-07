@@ -1,7 +1,8 @@
 .layout-cabecalho {
     height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid #ccc;
-    
+  
     background-color: #fff;
 }
   
@@ -13,10 +14,6 @@
     z-index: 9999;
 }
 
-.layout-cabecalho img {
-    margin-top: 12px;
-}
-  
 .layout-planos {
     padding: 80px 0;
 }
