@@ -282,3 +282,47 @@
     }
   
 }
+
+/*--------------------*\
+  TITULO-FORMULARIO
+\*--------------------*/
+.titulo-formulario {
+    margin: 0;
+    margin-bottom: 40px;
+    
+    border-bottom: 1px solid #ccc;
+  
+    font-size: 2.6rem;
+    font-weight: normal;
+    color: #004b86;
+}
+
+/*--------------------*\
+  GRUPO-ENTRADA
+\*--------------------*/
+.grupo-entrada {
+    margin-bottom: 15px;
+}
+  
+.grupo-entrada > label {
+    display: block;
+  
+    font-weight: bold;
+}
+
+/*--------------------*\
+  CAMPO
+\*--------------------*/
+.campo {
+    display: block;
+    width: 100%;
+    height: 2.8;
+
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    background-color: #fff;
+
+    font-size: 1.4rem;
+}
