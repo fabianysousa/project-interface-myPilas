@@ -6,14 +6,6 @@
     <img src="https://ik.imagekit.io/fabianysousa/desktop-MyPilas-ANIMATION_71XQfQyls.gif">
 </div>
 
-# Indice
-
-- [Sobre](#-sobre)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Metodologias e diretrizes utilizadas](#-metodologias-e-diretrizes-utilizadas)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Insigth](#-insigth)
-
 ## 📑 Sobre
 
 **MyPilas** é um projeto de interface responsiva que foi criado dentro do curso **Web Design Responsivo com HTML5, CSS3 e BEM** da plataforma **AlgaWorks** com o intuito de colocar em prática todo conteúdo estudado durante o curso.
@@ -55,7 +47,7 @@ O projeto foi desenvolvido utilizando a seguinte metogologia e diretriz:
 ---
 ## 💡 Insight
 
-<div align="justify">
+<div text-align: "justify">
     <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um dos mariores pesadelos de um desenvolvedor é receber um código extremamente extenso e ilegível em que você não entende o que o código significa e nem para que serve "tal componente" para a aplicação. Por meio do curso pude entender que essa problemática é resolvida quando o desenvolvedor entende que empatia e programação não se distinguem, andam juntas.
     </p>
