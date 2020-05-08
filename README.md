@@ -48,12 +48,12 @@ O projeto foi desenvolvido utilizando a seguinte metogologia e diretriz:
 ## 💡 Insight
 
 <div text-align: "justify">
-    <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um dos mariores pesadelos de um desenvolvedor é receber um código extremamente extenso e ilegível em que você não entende o que o código significa e nem para que serve "tal componente" para a aplicação. Por meio do curso pude entender que essa problemática é resolvida quando o desenvolvedor entende que empatia e programação não se distinguem, andam juntas.
-    </p>
-    <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse entendimento, no front-end, pode ser demostrado com a simples utlização de metodologias e diretrizes como a BEM e guidlines em que você preza pelo legibilidade e consequentemente pela produtividade de outros desenvolvedores. O mesmo vale para a responsividade em que o dev tem que decidir até onde o seu usuário deve ter controle da sua aplicação e em como ela vai impactar na experiência do usuário(UX) e no design da sua interface.Contudo, para um pouquinho para pensar na organização, legibilidade e experiência de usuário ao decorrer do desenvolvimento da interface irá resultar na satisfação não só dos desenvolvedores mas dos usuários da aplicação.
-    </p>
+<p>
+Um dos mariores pesadelos de um desenvolvedor é receber um código extremamente extenso e ilegível em que você não entende o que o código significa e nem para que serve "tal componente" para a aplicação. Por meio do curso pude entender que essa problemática é resolvida quando o desenvolvedor entende que empatia e programação não se distinguem, andam juntas.    
+</p>
+<p>
+Esse entendimento, no front-end, pode ser demostrado com a simples utlização de metodologias e diretrizes como a BEM e guidlines em que você preza pelo legibilidade e consequentemente pela produtividade de outros desenvolvedores. O mesmo vale para a responsividade em que o dev tem que decidir até onde o seu usuário deve ter controle da sua aplicação e em como ela vai impactar na experiência do usuário(UX) e no design da sua interface.Contudo, para um pouquinho para pensar na organização, legibilidade e experiência de usuário ao decorrer do desenvolvimento da interface irá resultar na satisfação não só dos desenvolvedores mas dos usuários da aplicação.
+</p>
 </div>
 
 ---
